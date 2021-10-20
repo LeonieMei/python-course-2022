@@ -1,7 +1,5 @@
 name: python-course
 channels:
-  - conda-forge
-  - bioconda
   - defaults
 dependencies:
   - appnope=0.1.2=py39h6e9494a_1
