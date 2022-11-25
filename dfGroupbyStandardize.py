@@ -7,7 +7,7 @@ data = {'item': ('pants', 'pants', 'shirt', 'sweater', 'sweater', 'sweater'),
 
 df = pd.DataFrame(data)
 
-standardize = lambda series: (series - series.mean())/series.std()
+standardize = lambda series: (series - series.mean()) / series.std()
 
 df['zPrice'] = df.groupby('item').price.transform(standardize)
 
