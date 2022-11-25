@@ -3,7 +3,7 @@
 import pandas as pd
 
 data = {'item': ('pants', 'pants', 'shirt', 'sweater', 'sweater', 'sweater'),
-		'price': (40, 45, 15, 30, 25, 20)}
+	'price': (40, 45, 15, 30, 25, 20)}
 
 df = pd.DataFrame(data)
 
